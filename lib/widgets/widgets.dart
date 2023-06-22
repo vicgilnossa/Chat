@@ -1,3 +1,5 @@
+export 'package:chat_app/widgets/chat-box.dart';
+
 export 'package:chat_app/widgets/search-bar.dart';
 
 export 'package:chat_app/widgets/title-icon-bar.dart';

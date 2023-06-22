@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Material App',
-        initialRoute: 'chat',
+        home: HomePage(),
         routes: AppRoutes,
         theme: ThemeData(
             textTheme: TextTheme(
