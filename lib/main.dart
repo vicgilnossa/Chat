@@ -1,4 +1,5 @@
 import 'package:chat_app/routes/routes.dart';
+import 'package:chat_app/screens/profile.dart';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -59,12 +60,7 @@ class _HomePageState extends State<HomePage> {
         size: 150,
       ),
     ),
-    const Center(
-      child: Icon(
-        Icons.camera,
-        size: 150,
-      ),
-    ),
+    ProfileScreen(),
   ];
   int index = 0;
 
